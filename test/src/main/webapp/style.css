@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+	margin : 0;
+	padding : 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+}
+header h1{
+	font-size: 40px;
+}
+nav {
+	width: 100%;
+	height: 5%;
+	display: flex;
+	align-items: center;
+	background-color: aqua;
+}
+nav ul {
+	width: 100%;
+}
+nav ul li {
+	display: inline-block;
+	padding : 0 20px;
+}
+nav ul li a{
+	font-size: 25px;
+	text-decoration: none;
+	color: #000;
+}
+
+section {
+	max-width: 100%;
+	height: 77%;
+	padding: 0 20px;
+}
+
+section h2 {
+	font-size: 30px;
+	padding: 30px 0;
+}
+.section_1{
+	width : 100%;
+	height : 100%;
+	display: flex;
+	flex-flow : column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+section pre {
+	font-size: 30px;
+	font-weight: 700;
+}
+.select_table tr td{
+	min-width: 150px;
+}
+table {
+	margin: 0 auto;
+	text-align: center;
+	min-width: 25%;
+}
+table tr td, table tr td input {
+	font-size: 20px;
+}
+table tr:not(:last-child) td  input, table tr:not(:last-child) td select{
+	width: 70%;
+	padding: 5px 0;
+	margin-right: 10px;
+} 
+footer{
+	width: 100%;
+	height: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	border-bottom: 0px;
+	background-color: greenyellow;
+	color: #ececec;
+	font-size: 25px;
+	font-weight: 700;
+}
